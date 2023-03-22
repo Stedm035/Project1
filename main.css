@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rampart+One&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+h1, h2, h3, h4, h5, h6, p, a, li {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight:normal;
+    color:black;
+    text-decoration: none;
+    
+}
+/* END OF RESET */
+
+body {
+    width: 900px;
+    margin: 0px auto;
+
+}
+
+img {
+    width:100%;
+    display: block; 
+}
+
+header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    margin-top: 20px;
+    border-top: 1px solid black;
+}
+
+h1 {
+    font-family: 'Rampart One', cursive;
+    font-size: 37px;
+}
+
+h2 {
+    font-family: 'Rampart One', cursive;
+    font-size: 22px;
+}
+
+.container {
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+
+}
+.card {
+    width: 255px;
+    padding: 8px 8px 24px 8px;
+    margin: 0px 12px 24px 12px;
+    background-color: #eee;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.beansimg{
+    border-radius: 15px;
+}
+.social-icon {
+    width: 30px;
+    display: inline;
+    margin-left: 8px;
+}
+
+.citation, .citation a {
+    color: #ccc;
+    text-align: center;
+}
+
+.beans-link {
+    text-align: center;
+    border: 1px solid black;
+    width: 200px;
+    margin: 15px auto;
+    padding: 6px;
+    border-radius: 15px;
+}
+
+.beans-link-2 {
+    color: black; 
+}
+
+.about-beans {
+    width: 450px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.about-text {
+    text-align: center;
+    text-align: justify;
+    padding: 10px 0px 10px 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.details {
+    display: inline-block;
+    width: 350px;
+    height: 400px;
+    padding: 10px 7px 0px 7px;
+    margin: 0px 25px 0px 35px;
+    
+}
+
+.center {
+    text-align: left;
+    text-align: justify;
+}
+
+.newsletter {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 0px 10px 0px;
+}
+
+
+input, textarea {
+    font-size: 1.25em;
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+    padding: 6px;
+}
+
+.form-button {
+    text-align: center;
+    background-color: black;
+    width: 300px;
+    margin: 0px auto;
+    padding: 6px;
+}
+
+.form-button-2 {
+    color: #eee;
+    font-size: 1.25em;
+}
+
+.thanks {
+    text-align: center;
+    font-size: 30px;
+}
